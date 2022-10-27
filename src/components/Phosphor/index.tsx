@@ -19,9 +19,14 @@ import Scanlines from "../Scanlines";
 
 // for different content, edit sample.json, or,
 // preferrably, create a new JSON and load it here
-import json from "../../data/sample.json";
+// import json from "../../data/sample.json";
 
 interface AppState {
+    data: {
+        config: Record<string, string>;
+        screens: any[];
+        dialogs: any[];
+    };
     screens: Screen[];
     dialogs: any[];
     activeScreenId: string;
@@ -101,6 +106,11 @@ class Phosphor extends Component<any, AppState> {
         this._containerRef = React.createRef<HTMLElement>();
 
         this.state = {
+            data: {
+                config: {},
+                screens: [],
+                dialogs: [],
+            },
             screens: [],
             dialogs: [],
             activeScreenId: null,
@@ -142,14 +152,27 @@ class Phosphor extends Component<any, AppState> {
 
     // public react events
     public componentDidMount(): void {
-        // parse the data & prep the screens
-        this._parseScreens();
-        this._parseDialogs();
+        fetch(
+            'https://raw.githubusercontent.com/AndreyZhartun/phosphor/main/src/data/sample.json',
+            {cache: "no-store"}
+        )
+          .then(function (response) {
+            return response.text();
+          })
+          .then((txt) => {
+            this.setState({
+                data: JSON.parse(txt)
+            }, () => {
+                // parse the data & prep the screens
+                this._parseScreens();
+                this._parseDialogs();
+            });
+          })
     }
 
     // private methods
     private _parseScreens(): void {
-        const screens = json.screens.map((element) => {
+        const screens = this.state.data.screens.map((element) => {
             return this._buildScreen(element);
         });
 
@@ -165,7 +188,7 @@ class Phosphor extends Component<any, AppState> {
     }
 
     private _parseDialogs(): void {
-        const dialogs = json.dialogs.map((element) => {
+        const dialogs = this.state.data.dialogs.map((element) => {
             return this._buildDialog(element);
         });
 
