@@ -32,7 +32,7 @@
             "id": "screen1",
             "type": "screen",
             "content": [
-                "Text is great an all, but what about toggle buttons? Toggle buttons cycle through their states, starting with whichever has 'active: true'.",
+                "Добро пожаловать на корабль бля буду",
                 "You can click the following button several times to cycle through its available states",
                 "",
                 {
