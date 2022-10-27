@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/phosphor/static/css/main.834a8797.css",
+    "main.js": "/phosphor/static/js/main.d9c031a7.js",
+    "static/media/vga.ttf": "/phosphor/static/media/vga.17f4c2c19ec92a016bdb.ttf",
+    "static/media/vga.woff": "/phosphor/static/media/vga.24874dcad1a78d7042de.woff",
+    "static/media/vga.woff2": "/phosphor/static/media/vga.df091cabb621f21d4c24.woff2",
+    "index.html": "/phosphor/index.html",
+    "main.834a8797.css.map": "/phosphor/static/css/main.834a8797.css.map",
+    "main.d9c031a7.js.map": "/phosphor/static/js/main.d9c031a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.834a8797.css",
+    "static/js/main.d9c031a7.js"
+  ]
+}
