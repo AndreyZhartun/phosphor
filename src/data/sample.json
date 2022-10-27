@@ -8,13 +8,13 @@
             "id": "screen0",
             "type": "screen",
             "content": [
-                "Screen content can be a string. And that string can contain\n\nlinebreaks.",
+                 "Инда Прайм",
+                "==========",
                 "",
-                "Or it can be an empty string like the above entry.",
-                { "type": "text", "text": "Or it can be an Object with an specific CSS 'className' property, like 'alert', currently the only one.", "className": "alert" },
+                "Добро пожаловать на станцию Инда Прайм.",
+                "==========",
                 "",
-                "Links to other Screens can be rendered, too. Linking to the current screen's ID will cause it to redraw. Like this:",
-                {
+        {        
                     "type": "link",
                     "target": "screen0",
                     "text": "> CLICK TO RELOAD THIS SCREEN"
