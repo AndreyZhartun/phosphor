@@ -72,17 +72,14 @@
                     ]
                 },
                 "",
-                "There's also a module that accepts user input. It's very particular, and it uses a document-wide event listener which is pretty hacky. See what happens when you type the following commands:\n\n",
-                "BACK",
-                "DIALOG",
-                "IMAGE",
+                "There's also a module that accepts user input. It's very particular, and it uses a document-wide event listener which is pretty hacky. See what happens when you type the following commands:1678\n\n",
                 {
                     "type": "prompt",
-                    "prompt": "Enter command: ",
+                    "prompt": "Введите пароль: ",
                     "className": "cursor",
                     "commands": [
                         {
-                            "command": "back",
+                            "command": "1678",
                             "action": {
                                 "type": "link",
                                 "target": "screen0"
