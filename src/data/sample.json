@@ -1,7 +1,7 @@
 {
     "config": {
-        "name": "Sample JSON data",
-        "author": "@redhg"
+        "name": "https://andreyzhartun.github.io/phosphor/",
+        "author": "Unknown"
     },
     "screens": [
         {
@@ -17,10 +17,10 @@
         {        
                     "type": "link",
                     "target": "screen0",
-                    "text": "> CLICK TO RELOAD THIS SCREEN"
+                    "text": "> НАЖМИТЕ ДЛЯ ПЕРЕЗАГРУЗКИ"
                 },
                 "",
-                "Linking instead to a different screen's ID will, naturally, render that screen's content.",
+                "Укажите в target идентификатор экрана, чтобы добавить ссылку на этот экран",
                 {
                     "type": "link",
                     "target": "screen1",
