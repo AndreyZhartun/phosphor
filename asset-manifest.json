@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/phosphor/static/css/main.c5dc01af.css",
-    "main.js": "/phosphor/static/js/main.57064f72.js",
+    "main.css": "/phosphor/static/css/main.5ab4b553.css",
+    "main.js": "/phosphor/static/js/main.12aaba07.js",
     "static/media/PressStart2P-Regular.ttf": "/phosphor/static/media/PressStart2P-Regular.21503c6a5385ab41dde9.ttf",
     "index.html": "/phosphor/index.html",
-    "main.c5dc01af.css.map": "/phosphor/static/css/main.c5dc01af.css.map",
-    "main.57064f72.js.map": "/phosphor/static/js/main.57064f72.js.map"
+    "main.5ab4b553.css.map": "/phosphor/static/css/main.5ab4b553.css.map",
+    "main.12aaba07.js.map": "/phosphor/static/js/main.12aaba07.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5dc01af.css",
-    "static/js/main.57064f72.js"
+    "static/css/main.5ab4b553.css",
+    "static/js/main.12aaba07.js"
   ]
 }
