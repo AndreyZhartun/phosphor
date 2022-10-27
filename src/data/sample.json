@@ -17,7 +17,7 @@
         {        
                     "type": "link",
                     "target": "screen0",
-                    "text": "> CLICK TO RELOAD THIS SCREEN"
+                    "text": "> НАЖМИТЕ ДЛЯ ПЕРЕЗАГРУЗКИ"
                 },
                 "",
                 "Linking instead to a different screen's ID will, naturally, render that screen's content.",
