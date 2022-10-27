@@ -20,7 +20,7 @@
                     "text": "> НАЖМИТЕ ДЛЯ ПЕРЕЗАГРУЗКИ"
                 },
                 "",
-                "Linking instead to a different screen's ID will, naturally, render that screen's content.",
+                "Укажите в target идентификатор экрана, чтобы добавить ссылку на этот экран",
                 {
                     "type": "link",
                     "target": "screen1",
